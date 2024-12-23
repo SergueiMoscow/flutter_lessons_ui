@@ -15,6 +15,7 @@ import 'package:flutter_ui/apps/layout_demo/single_child_layouts/overflow_exampl
 import 'package:flutter_ui/apps/layout_demo/single_child_layouts/padding_example_widget.dart';
 import 'package:flutter_ui/apps/layout_demo/single_child_layouts/sized_box_example_widget.dart';
 import 'package:flutter_ui/apps/layout_demo/single_child_layouts/transform_example_widget.dart';
+import 'package:flutter_ui/apps/state_widget/state_widget_demo_widget.dart';
 
 class LayoutDemoApp extends StatelessWidget {
   const LayoutDemoApp({super.key});

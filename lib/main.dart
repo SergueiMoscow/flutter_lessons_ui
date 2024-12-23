@@ -10,6 +10,8 @@ import 'package:flutter_ui/apps/scrolling_demo/scrolling_demo_widget.dart';
 import 'package:flutter_ui/apps/ui_base_demo/components/theme_component.dart';
 import 'package:flutter_ui/apps/ui_base_demo/ui_base_demo_widget.dart';
 
+import 'apps/state_widget/state_widget_demo_widget.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -40,7 +42,10 @@ class MyApp extends StatelessWidget {
       // home: UiBaseDemoWidget(),
       // home: EventsDemoWidget(),
       // home: FormDemoWidget(),
-      home: NavigationDemo(),
+      // home: NavigationDemo(),
+      // home: LayoutDemoApp(),
+      home: StateWidgetDemoWidget(),
+
     );
   }
 }
